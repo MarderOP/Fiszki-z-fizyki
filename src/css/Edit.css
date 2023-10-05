@@ -1,0 +1,26 @@
+#for{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 5em;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border: solid 1px;
+    width: fit-content;
+    padding: 1em;
+    margin: 1em;
+}
+#form>input,#form>select,#form>textarea{
+    font-size: 1vw;
+    overflow: scroll;
+    width:80%;
+}
+#hidden{
+    display: none;
+}
